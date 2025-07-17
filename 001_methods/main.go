@@ -62,8 +62,10 @@ func main() {
 	SayHi(name)
 
 	product1 := &Product{Name: "Laptop", Price: 999.99}
+	prod := &Product{Name: "Smartphone", Price: 499.99}
 	product1.UpdatePrice(899.99)
 	fmt.Printf("Updated price of %s: %.2f\n", product1.Name, product1.Price)
+	fmt.Printf("Price of %s: %.2f\n", prod.Name, prod.Price)
 }
 
 func SayHi(name string) {
