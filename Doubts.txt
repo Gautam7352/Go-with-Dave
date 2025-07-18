@@ -1,0 +1,7 @@
+	product1 := &Product{Name: "Laptop", Price: 999.99}
+
+	product2 := Product{Name: "mobile", Price: 899.99}
+
+
+
+different types 
