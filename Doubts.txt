@@ -1,7 +1,6 @@
-	product1 := &Product{Name: "Laptop", Price: 999.99}
+	fmt.Println("Product 1:", product1.Name, "Price:", product1.Price)
 
-	product2 := Product{Name: "mobile", Price: 899.99}
+is comma in right place
 
+How to print object name
 
-
-different types 
